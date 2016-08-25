@@ -1,0 +1,73 @@
+/* reset */
+* {
+    margin: 0;
+    border: 0;
+}
+
+/* generic */
+.container {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    background: transparent;
+    width:  200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.container div {
+    background: #000;
+    height: 3px;
+    width: 3px;
+    box-shadow:
+      0px  0px 4px 5px #000,
+     10px  0px 4px 5px #000,
+     20px  0px 4px 5px #000,
+     30px  0px 4px 5px #000,
+     40px  0px 4px 5px #000,
+     50px  0px 4px 5px #000,
+
+      0px  10px 4px 5px #000,
+     10px  10px 4px 5px #fff,
+     20px  10px 4px 5px #000,
+     30px  10px 4px 5px #000,
+     40px  10px 4px 5px #fff,
+     50px  10px 4px 5px #000,
+
+     0px  20px 4px 5px #000,
+     10px  20px 4px 8px #000,
+     20px  20px 4px 5px #fff,
+     30px  20px 4px 5px #000,
+     40px  20px 4px 5px #000,
+     50px  20px 4px 5px #000,
+
+     0px  30px 4px 5px #000,
+     10px  30px 4px 5px #000,
+     20px  30px 4px 5px #fff,
+     30px  30px 4px 5px #000,
+     40px  30px 4px 5px #000,
+     50px  30px 4px 5px #000,
+
+     0px  40px 4px 5px #000,
+     10px  40px 4px 5px #000,
+     20px  40px 4px 5px #000,
+     30px  40px 4px 5px #000,
+     40px  40px 4px 5px #000,
+     50px  40px 4px 5px #000,
+        
+     0px  50px 4px 5px #000,
+     10px  50px 4px 5px #000,
+     20px  50px 4px 5px #fff,
+     30px  50px 4px 5px #000,
+     40px  50px 4px 5px #000,
+     50px  50px 4px 5px #000,
+
+     0px  60px 4px 5px #000,
+     10px  60px 4px 5px #000,
+     20px  60px 4px 5px #000,
+     30px  60px 4px 5px #000,
+     40px  60px 4px 5px #000,
+     50px  60px 4px 5px #fff;
+    
+}
